@@ -20,15 +20,15 @@ public class Util {
 
     @PostConstruct
     public void testBd() {
-        System.out.println("Начал работу метод testBd");
-        /*User user = new User();
+        /*System.out.println("Начал работу метод testBd");
+        User user = new User();
         user.setLogin("admin");
         user.setPassword("admin");
         user.setName("admin");
-        user.setRole(Role.USER);
-        user.setPassword(passwordEncoder.encode("admin"));
-        dataService.createUser(user);*/
+        user.setRole(Role.ADMIN);
+        user.setPassword(passwordEncoder.encode(""));
+        dataService.createUser(user);
         //System.out.println(dataService.getAllUsers());
-        System.out.println("Завершение работы метода testBd");
+        System.out.println("Завершение работы метода testBd");*/
     }
 }
