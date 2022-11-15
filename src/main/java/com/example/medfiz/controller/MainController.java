@@ -33,4 +33,16 @@ public class MainController {
     public String showMechanicLr4(Model model) {
         return "Laboratornaya_rabota_3a_1";
     }
+    @GetMapping("/mechanic/lr5")
+    public String showMechanicLr5(Model model) {
+        return "Laboratornaya_rabota_4";
+    }
+    @GetMapping("/szf")
+    public String showSzf(Model model) {
+        return "szf";
+    }
+    @GetMapping("/szf/lr1")
+    public String showSzfLr1(Model model) {
+        return "Prezentatsia1";
+    }
 }
