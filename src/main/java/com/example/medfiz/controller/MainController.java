@@ -13,8 +13,24 @@ public class MainController {
     public String showMain(Model model) {
         return "main";
     }
-    @GetMapping("/about")
-    public String showAbout(Model model) {
-        return "about";
+    @GetMapping("/mechanic")
+    public String showMechanic(Model model) {
+        return "mechanic";
+    }
+    @GetMapping("/mechanic/lr1")
+    public String showMechanicLr1(Model model) {
+        return "Laboratornaya_rabota_1";
+    }
+    @GetMapping("/mechanic/lr2")
+    public String showMechanicLr2(Model model) {
+        return "Laboratornaya_rabota_2";
+    }
+    @GetMapping("/mechanic/lr3")
+    public String showMechanicLr3(Model model) {
+        return "Laboratornaya_rabota_3";
+    }
+    @GetMapping("/mechanic/lr4")
+    public String showMechanicLr4(Model model) {
+        return "Laboratornaya_rabota_3a_1";
     }
 }
